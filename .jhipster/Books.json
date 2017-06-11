@@ -1,0 +1,42 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "library",
+            "otherEntityName": "library",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "bookName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "author",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "yearOfPublication",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "harCopy",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "onlineCopy",
+            "fieldType": "Boolean"
+        }
+    ],
+    "changelogDate": "20170218114310",
+    "entityTableName": "books",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

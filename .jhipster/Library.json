@@ -1,0 +1,26 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "job",
+            "otherEntityName": "books",
+            "otherEntityRelationshipName": "library"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "location",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "locationDescription",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170218114310",
+    "entityTableName": "library",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

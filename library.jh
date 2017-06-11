@@ -1,0 +1,18 @@
+entity Library {
+    location String,
+    locationDescription String
+}
+
+entity Books {
+	bookName String,
+    author String,
+    title String,
+    yearOfPublication Integer,
+    harCopy Boolean,
+    onlineCopy Boolean
+}
+
+relationship OneToMany {
+	Library{job} to Books
+}
+
